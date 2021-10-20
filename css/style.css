@@ -132,14 +132,14 @@ body{
 #testimonials{
     margin: 100px 0px;
 }
-.testimonials{
+.testimonialss{
     border-left: 3px solid#7b1798;
     margin: 50px 0px;
     
 
 
 }
-.testimonials img{
+.testimonialss img{
     height: 60px ;
     width: 60px;
     border-radius: 50%;
@@ -194,7 +194,7 @@ body{
     border-radius: 7px;
     background-image: linear-gradient(to right , #a517ba , #5f1782);
 }
-#footer .btn-primary{
+#footer-box .btn-primary{
     box-shadow: none;
     padding: 8px 25px;
     border: none;

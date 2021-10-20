@@ -30,19 +30,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link " href="#">HOME</a>
+            <a class="nav-link " href="#top">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#service">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link" href="#about-us">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ">TESTIMONIALS</a>
+            <a class="nav-link " href="#testimonials">TESTIMONIALS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ">CONTACT</a>
+            <a class="nav-link " href="#footer">CONTACT</a>
           </li>
 
         </ul>
@@ -163,7 +163,7 @@
           WHAT CLIENT SAY
         </h1>
         <div class="row offset-1">
-          <div class="col-md-5 testimonials">
+          <div class="col-md-5 testimonialss">
             <p class="text-justify">
               Online branding gives you brand loyalty which is one of the most important consumer aspects of any
               business
@@ -176,15 +176,16 @@
           </div>
 
 
-          <div class="col-md-5 testimonials">
+          <div class="col-md-5 testimonialss">
             <p class="text-justify">
-              Online branding gives you brand loyalty which is one of the most important consumer aspects of any business
+              Online branding gives you brand loyalty which is one of the most important consumer aspects of any
+              business
             </p>
             <img src="images/user2.jpg" alt="">
             <p class="user-details"><b>Jhone De</b> <br>
-               Derector at xys
+              Derector at xys
             </p>
-           </div>
+          </div>
         </div>
 
       </div>
@@ -210,7 +211,7 @@
     </section>
 
   </main>
-<!-- ...................foooter part....................... -->
+  <!-- ...................foooter part....................... -->
   <footer id="footer">
     <img src="images/wave2.png" alt="" class="footer-img">
     <div class="container">
@@ -236,14 +237,23 @@
           <input type="text" class="form-control" placeholder="Your email">
           <br>
           <button type="button" class="btn btn-primary">Send</button>
-          
-         
+
+
 
         </div>
       </div>
     </div>
 
   </footer>
+
+  <!-- 
+  ......smooth scroll.................. -->
+<script src="smooth-scroll.js"></script>
+ 
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 
 
 
@@ -260,6 +270,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+   
 </body>
 
 </html>
